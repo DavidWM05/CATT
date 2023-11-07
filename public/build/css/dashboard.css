@@ -1,0 +1,352 @@
+/* Generales */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+hr {
+  border: 3px solid #666;
+  border-radius: 300px/10px;
+  padding: 0;
+  margin: 0;
+}
+.filtro{
+  display: none;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.btn-info {
+   font-size: 1.1rem;
+   margin: 20px;
+}
+
+.seccion-titulo {
+   font-size: 2rem;
+   padding: 15px 0;
+   font-family: cursive;
+}
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+  
+.seccion-texto {
+   font-size: 1.2rem;
+}
+
+.texto-negro {
+    color: black;
+  }
+  
+.texto-blanco {
+color: white;
+}
+
+.texto-formulario{
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.persona-editar{
+  font-family: cursive;
+  font-size: 0.8rem;
+}
+
+/* Algoritmo Genetico */
+.aviso_AG{
+  font-family: cursive;
+  font-size: 1.2rem;
+}
+
+.info_AG{
+  font-size: 0.9rem;
+  list-style-type: none;
+}
+
+.titulo-AG{
+  font-size: 2.5rem;
+  font-family: 'Koulen', cursive;
+  color: #800040;
+}
+
+.titulo-modal{
+  font-size: 1.5rem;
+  font-family: 'Koulen', cursive;
+  color: #800040;
+}
+.seccion-error{
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+
+/* Barra de navegacion */
+
+.logo-nav{
+  margin-right: 0.5rem;
+}
+
+.titulo-nav{
+  font-size: 2.5rem;
+  font-family: 'Koulen', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #800040;
+}
+.opciones-nav{
+  font-size: 1.3rem;
+  color: whitesmoke;
+}
+.opciones-nav-nombre{
+  font-size: 1.4rem;
+  color: #800040;
+  font-family: 'Koulen', sans-serif;
+}
+
+.navbar{
+  padding: 0.5rem;
+  background-color: #FFFFFF;
+  background-image: url("../img/backgrounds/subtle-prism.svg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar-collapse{
+  align-items: center;
+  justify-content: right;
+}
+
+/* Carrusel */
+.hero{
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+.hero-principal{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-principal h1{
+  font-size: 2.5rem;
+  font-family: 'Saira Stencil One', cursive;  
+}
+
+.hero-principal h2{
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+.hero-imagen-desarrollador{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Repositorios */
+
+.experiencia {
+  padding: 40px 40px 40px 40px;
+}
+  
+.experiencia .columna {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.experiencia-descripcion{
+  text-align: justify;
+}
+
+/* Plantillas */
+
+.articulos {
+  min-height: 400px;
+  padding: 20px;
+}
+  
+.articulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.articulos .card-header {
+  font-weight: bold;
+}
+
+/* Noticas */
+.carousel {
+  min-width: 90vw;
+}
+  
+.carousel-item {
+  padding-top: 20px;
+}
+  
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
+.testimonio-imagen {
+  height: 250px;
+  width: 80%;
+  margin: 10px 10px 20px 10px;
+}
+
+.testimonio-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonio-info p {
+  margin-bottom: 0;
+}
+
+.testimonio-footer .noticia {
+  font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+/* Pie de pagina (footer) */
+
+footer {
+  min-height: 250px;
+}
+
+.footer-logo {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+
+.footer-texto {
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 5px;
+}
+
+/* XXXXXXXXXX| Responsivo |XXXXXXXXXX */
+
+/* Esconde el icono para ciertos dispositivos */
+@media screen and (max-width: 767px){
+  .navbar-brand{
+    display: none;
+  }
+  .navbar{
+    background-color: #800040;
+    background-image: none;
+  }
+}
+
+@media screen and (min-width: 700px){
+  .hero-inferior-imagen{
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
