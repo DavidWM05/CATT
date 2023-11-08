@@ -52,7 +52,7 @@ El problema recae en que a mayor numero de estudiantes que presentaran trabajo t
 <p style="text-align: center;"> <img heigth="80" src="img/tiempos.png" alt=Tiempos"> </p>
 
 <p>
-  <span> [NOTA] Consulta el articulo tecnico completo aqui <a href="https://drive.google.com/file/d/1vog1J9IT1pdFCHmlEFufoNcS4YD638O-/view?usp=sharing" target="_blank rel="noreferrer"" >
+  <span> [NOTA] Consulta el articulo tecnico completo aqui <a href="https://drive.google.com/file/d/1vog1J9IT1pdFCHmlEFufoNcS4YD638O-/view?usp=sharing" target="_blank" rel="noreferrer">
     Articulo</a>
   </span>
 </p>
