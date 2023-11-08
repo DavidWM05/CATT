@@ -41,11 +41,16 @@ El problema recae en que a mayor numero de estudiantes que presentaran trabajo t
  7 - Dos TT no pueden agendarse en el mismo dia, horario y salon. </br>
  8 - La CATT brinda los salones, hoarios y fechas de presentacion a utilizar. </br>
 
-### Resultados
+## Resultados
 
 <p>
-Una vez el algoritmo termina se devuelve el mejor resultado obtenido en donde se evitaron totalmente los traslapes o casi en su totalidad. Anteriormente la CATT tardaba 1 mes y medio en completar este proceso, con la implementacion de este algoritmo se logro una efectividad arriba de 95% tardandose 60 segundos aproximadamente en completarse.
-</br>
-</br>
-<span> Consulta el articulo tecnico aqui <a href="https://drive.google.com/file/d/1vog1J9IT1pdFCHmlEFufoNcS4YD638O-/view?usp=sharing">Articulo</a> </span>
+  Una vez el algoritmo termina se devuelve el mejor resultado obtenido en donde se evitaron totalmente los traslapes o casi en su totalidad. Anteriormente la CATT tardaba 1 mes y medio en completar este proceso, con la     implementacion de este algoritmo se logro una efectividad arriba de 95% tardandose 60 segundos aproximadamente en completarse. En la siguiente tabla se pueden verificar los tiempos que se tardo el algoritmo con una lista de trabajos terminales de 105 y otra lista de 226; para cada lista el algoritmo se ejecuto 5 veces para asi ver que tanta variacion tiene en sus resultados, mostrando cuantos horarios de presentacion son optimos (sin traslape) y no optimos (con traslape).
+</p>
+
+### Tabla de Tiempos
+
+<p style="text-align: center;"> <img heigth="80" src="img/tiempos.png" alt=Tiempos"> </p>
+
+<p>
+  <span> [NOTA] Consulta el articulo tecnico completo aqui <a href="https://drive.google.com/file/d/1vog1J9IT1pdFCHmlEFufoNcS4YD638O-/view?usp=sharing">Articulo</a> </span>
 </p>
